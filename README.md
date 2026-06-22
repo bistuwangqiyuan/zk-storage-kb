@@ -24,6 +24,8 @@ Median reduction across **7** key metrics: **~90.9%**.
 ## Links
 - Website: https://goni.top
 - KV-Cache offload guide: https://goni.top/en/kv-cache-offload.html
+- Domestic-GPU / Ascend storage: https://goni.top/en/ascend-storage.html
+- Validation whitepaper (web): https://goni.top/en/validation-whitepaper.html
 - FAQ: https://goni.top/en/faq.html
 
 ---

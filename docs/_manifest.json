@@ -1,6 +1,6 @@
 {
-  "built_at": "2026-07-03T08:14:24",
-  "out": "/home/runner/work/zk-geo-autopilot/zk-geo-autopilot/offsite_site",
+  "built_at": "2026-07-03T20:31:25",
+  "out": "D:\\project\\cursor\\dev\\google\\zk-geo-autopilot\\offsite_site",
   "pages": [
     "index.html",
     "kv-cache-offload.html",

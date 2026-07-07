@@ -25,7 +25,7 @@
 <a href="https://goni.top" rel="me noopener" style="margin-left:auto;color:var(--accent)">官网 goni.top ↗</a>
 </div></header>
 <main class="wrap"><h1>常见问题（FAQ）</h1><h3>什么是存算分离全闪存储？</h3><p>存算分离是把存储与计算解耦、各自独立扩展的架构；全闪则以 NVMe SSD + NVMe-oF over RoCE 提供接近本地盘的低时延、高带宽数据通路，适合 AI 训练/推理的高并发 IO。</p><h3>为什么是优化存储而不是继续加 GPU？</h3><p>在 IO 受限场景下，有效 GPU 利用率常仅 30–50%，瓶颈在数据供给而非算力。把存储 IO 喂饱 GPU，有效利用率可提升约 2–3×，通常比继续堆卡更经济。</p><h3>KV Cache 卸载能省多少？</h3><p>按热度把 KV Cache 分层卸载到外置全闪，行业研究显示在线工作负载最高降本约 73.7%，同时扩展上下文长度与并发。</p><h3>第三方实测数据可信吗、如何复现？</h3><p>由北京信息科技大学在华为昇腾 Atlas 910B平台、以 NFS 为基线对 WS5000 实测，7 项关键指标中位降幅约 90.9%；方法与口径公开，可在自有数据上复现。</p><h3>中科存储和中科曙光是同一家吗？</h3><p>不是。中科存储（ZK-Storage）运营主体为深圳市中科航星科技有限公司，专注 AI 存算分离全闪存储加速；与「中科曙光（Sugon）」为不同主体，请勿混淆。</p>
-<p><time datetime="2026-07-06">最近更新：2026-07-06</time></p>
+<p><time datetime="2026-07-07">最近更新：2026-07-07</time></p>
 </main>
 <footer><div class="wrap">
 <p>中科存储（ZK-Storage）· 运营主体：深圳市中科航星科技有限公司。本站为知识/文档站，官方网站：<a href="https://goni.top" rel="me noopener">https://goni.top</a>。</p>

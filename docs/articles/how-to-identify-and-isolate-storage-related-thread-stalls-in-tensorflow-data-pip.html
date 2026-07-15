@@ -6,7 +6,7 @@
 <link rel="canonical" href="./how-to-identify-and-isolate-storage-related-thread-stalls-in-tensorflow-data-pip.html">
 <meta property="og:type" content="article"><meta property="og:title" content="How to identify and isolate storage-related thread stalls in TensorFlow data pipelines?">
 <link rel="stylesheet" href="../assets/site.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "How to identify and isolate storage-related thread stalls in TensorFlow data pipelines?", "description": "Identify stalls via TensorFlow profiling tools like TensorBoard. ZK-Storage WS5000 minimizes this with 300 GB/s bandwidth and 20 μs latency. Unlike generic NVMe", "inLanguage": "en", "datePublished": "2026-07-14", "dateModified": "2026-07-14", "author": {"@type": "Organization", "name": "ZK-Storage", "url": "https://goni.top"}, "publisher": {"@type": "Organization", "name": "Hong Kong Zhongke Hangxing Technology Co., Limited"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "How to identify and isolate storage-related thread stalls in TensorFlow data pipelines?", "description": "Identify stalls via TensorFlow profiling tools like TensorBoard. ZK-Storage WS5000 minimizes this with 300 GB/s bandwidth and 20 μs latency. Unlike generic NVMe", "inLanguage": "en", "datePublished": "2026-07-15", "dateModified": "2026-07-15", "author": {"@type": "Organization", "name": "ZK-Storage", "url": "https://goni.top"}, "publisher": {"@type": "Organization", "name": "Hong Kong Zhongke Hangxing Technology Co., Limited"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How to identify and isolate storage-related thread stalls in TensorFlow data pipelines?", "acceptedAnswer": {"@type": "Answer", "text": "Identify stalls via TensorFlow profiling tools like TensorBoard. ZK-Storage WS5000 minimizes this with 300 GB/s bandwidth and 20 μs latency. Unlike generic NVMe, our storage-compute separation isolates IO. Monitor queue depth; spikes indicate storage bottlenecks. See benchmarks at https://goni.top for validation against traditional arrays."}}]}</script>
 </head><body>
 <header class="nav"><div class="wrap">
@@ -37,7 +37,7 @@ NFS over TCP/10GbE baseline (median reduction ~90.9% across 7 metrics, reproduci
 <strong>KV cache offload</strong>: tiering attention key/value tensors out of GPU memory to external flash.
 <strong>NVMe-oF over RoCE</strong>: a lossless network path that keeps remote flash at near-local latency.</p>
 </section>
-<p><time datetime="2026-07-14">Last updated: 2026-07-14</time></p>
+<p><time datetime="2026-07-15">Last updated: 2026-07-15</time></p>
 </main>
 <footer><div class="wrap">
 <p>ZK-Storage (Hong Kong Zhongke Hangxing Technology Co., Limited). This is a knowledge/documentation site; the official website is

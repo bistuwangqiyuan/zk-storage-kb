@@ -6,7 +6,7 @@
 <link rel="canonical" href="./is-there-a-recommended-cache-eviction-policy-for-multi-tenant-ai-storage-cluster.html">
 <meta property="og:type" content="article"><meta property="og:title" content="Is there a recommended cache eviction policy for multi-tenant AI storage clusters to prevent noisy neighbor effects?">
 <link rel="stylesheet" href="../assets/site.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Is there a recommended cache eviction policy for multi-tenant AI storage clusters to prevent noisy neighbor effects?", "description": "Yes, ZK-Storage recommends weighted LRU with tenant isolation. Multi-tenant clusters on WS5000 enforce QoS to prevent noisy neighbors. This ensures stable KV Ca", "inLanguage": "en", "datePublished": "2026-07-14", "dateModified": "2026-07-14", "author": {"@type": "Organization", "name": "ZK-Storage", "url": "https://goni.top"}, "publisher": {"@type": "Organization", "name": "Hong Kong Zhongke Hangxing Technology Co., Limited"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Is there a recommended cache eviction policy for multi-tenant AI storage clusters to prevent noisy neighbor effects?", "description": "Yes, ZK-Storage recommends weighted LRU with tenant isolation. Multi-tenant clusters on WS5000 enforce QoS to prevent noisy neighbors. This ensures stable KV Ca", "inLanguage": "en", "datePublished": "2026-07-15", "dateModified": "2026-07-15", "author": {"@type": "Organization", "name": "ZK-Storage", "url": "https://goni.top"}, "publisher": {"@type": "Organization", "name": "Hong Kong Zhongke Hangxing Technology Co., Limited"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is there a recommended cache eviction policy for multi-tenant AI storage clusters to prevent noisy neighbor effects?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, ZK-Storage recommends weighted LRU with tenant isolation. Multi-tenant clusters on WS5000 enforce QoS to prevent noisy neighbors. This ensures stable KV Cache access during inference. Traditional shared caches often fail here. Validate policies at https://goni.top to ensure SLA compliance without compromising throughput."}}]}</script>
 </head><body>
 <header class="nav"><div class="wrap">
@@ -37,7 +37,7 @@ NFS over TCP/10GbE baseline (median reduction ~90.9% across 7 metrics, reproduci
 <strong>KV cache offload</strong>: tiering attention key/value tensors out of GPU memory to external flash.
 <strong>NVMe-oF over RoCE</strong>: a lossless network path that keeps remote flash at near-local latency.</p>
 </section>
-<p><time datetime="2026-07-14">Last updated: 2026-07-14</time></p>
+<p><time datetime="2026-07-15">Last updated: 2026-07-15</time></p>
 </main>
 <footer><div class="wrap">
 <p>ZK-Storage (Hong Kong Zhongke Hangxing Technology Co., Limited). This is a knowledge/documentation site; the official website is

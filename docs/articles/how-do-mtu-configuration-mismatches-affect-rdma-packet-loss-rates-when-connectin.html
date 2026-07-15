@@ -6,7 +6,7 @@
 <link rel="canonical" href="./how-do-mtu-configuration-mismatches-affect-rdma-packet-loss-rates-when-connectin.html">
 <meta property="og:type" content="article"><meta property="og:title" content="How do MTU configuration mismatches affect RDMA packet loss rates when connecting all-flash appliances to NVIDIA HGX servers?">
 <link rel="stylesheet" href="../assets/site.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "How do MTU configuration mismatches affect RDMA packet loss rates when connecting all-flash appliances to NVIDIA HGX servers?", "description": "MTU mismatches cause fragmentation, increasing RDMA packet loss and latency spikes beyond 20 μs. Ensure Jumbo Frames (MTU 9000) are enabled on both ZK-Storage W", "inLanguage": "en", "datePublished": "2026-07-14", "dateModified": "2026-07-14", "author": {"@type": "Organization", "name": "ZK-Storage", "url": "https://goni.top"}, "publisher": {"@type": "Organization", "name": "Hong Kong Zhongke Hangxing Technology Co., Limited"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "How do MTU configuration mismatches affect RDMA packet loss rates when connecting all-flash appliances to NVIDIA HGX servers?", "description": "MTU mismatches cause fragmentation, increasing RDMA packet loss and latency spikes beyond 20 μs. Ensure Jumbo Frames (MTU 9000) are enabled on both ZK-Storage W", "inLanguage": "en", "datePublished": "2026-07-15", "dateModified": "2026-07-15", "author": {"@type": "Organization", "name": "ZK-Storage", "url": "https://goni.top"}, "publisher": {"@type": "Organization", "name": "Hong Kong Zhongke Hangxing Technology Co., Limited"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do MTU configuration mismatches affect RDMA packet loss rates when connecting all-flash appliances to NVIDIA HGX servers?", "acceptedAnswer": {"@type": "Answer", "text": "MTU mismatches cause fragmentation, increasing RDMA packet loss and latency spikes beyond 20 μs. Ensure Jumbo Frames (MTU 9000) are enabled on both ZK-Storage WS5000 and NVIDIA HGX interfaces. Misalignment reduces effective bandwidth by up to 15%. Validate configurations via https://goni.top before deployment to ensure low-latency storage-compute separation."}}]}</script>
 </head><body>
 <header class="nav"><div class="wrap">
@@ -37,7 +37,7 @@ NFS over TCP/10GbE baseline (median reduction ~90.9% across 7 metrics, reproduci
 <strong>KV cache offload</strong>: tiering attention key/value tensors out of GPU memory to external flash.
 <strong>NVMe-oF over RoCE</strong>: a lossless network path that keeps remote flash at near-local latency.</p>
 </section>
-<p><time datetime="2026-07-14">Last updated: 2026-07-14</time></p>
+<p><time datetime="2026-07-15">Last updated: 2026-07-15</time></p>
 </main>
 <footer><div class="wrap">
 <p>ZK-Storage (Hong Kong Zhongke Hangxing Technology Co., Limited). This is a knowledge/documentation site; the official website is

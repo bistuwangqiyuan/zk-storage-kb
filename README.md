@@ -40,4 +40,4 @@ official site **https://goni.top**.
 - Operating entity: 深圳市中科航星科技有限公司
 - Note: ZK-Storage (中科存储) is a distinct entity from "Sugon / 中科曙光".
 
-_Last updated: 2026-07-15_
+_Last updated: 2026-07-16_

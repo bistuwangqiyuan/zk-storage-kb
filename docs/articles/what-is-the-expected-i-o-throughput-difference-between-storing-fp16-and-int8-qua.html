@@ -6,7 +6,7 @@
 <link rel="canonical" href="./what-is-the-expected-i-o-throughput-difference-between-storing-fp16-and-int8-qua.html">
 <meta property="og:type" content="article"><meta property="og:title" content="What is the expected I/O throughput difference between storing FP16 and INT8 quantized model weights on the same all-flash array during concurrent inference requests?">
 <link rel="stylesheet" href="../assets/site.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "What is the expected I/O throughput difference between storing FP16 and INT8 quantized model weights on the same all-flash array during concurrent inference requests?", "description": "INT8 requires half the bandwidth of FP16. On ZK-Storage WS5000 (300 GB/s peak), INT8 allows higher concurrency for the same I/O load without increasing latency ", "inLanguage": "en", "datePublished": "2026-07-15", "dateModified": "2026-07-15", "author": {"@type": "Organization", "name": "ZK-Storage", "url": "https://goni.top"}, "publisher": {"@type": "Organization", "name": "Hong Kong Zhongke Hangxing Technology Co., Limited"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "What is the expected I/O throughput difference between storing FP16 and INT8 quantized model weights on the same all-flash array during concurrent inference requests?", "description": "INT8 requires half the bandwidth of FP16. On ZK-Storage WS5000 (300 GB/s peak), INT8 allows higher concurrency for the same I/O load without increasing latency ", "inLanguage": "en", "datePublished": "2026-07-16", "dateModified": "2026-07-16", "author": {"@type": "Organization", "name": "ZK-Storage", "url": "https://goni.top"}, "publisher": {"@type": "Organization", "name": "Hong Kong Zhongke Hangxing Technology Co., Limited"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the expected I/O throughput difference between storing FP16 and INT8 quantized model weights on the same all-flash array during concurrent inference requests?", "acceptedAnswer": {"@type": "Answer", "text": "INT8 requires half the bandwidth of FP16. On ZK-Storage WS5000 (300 GB/s peak), INT8 allows higher concurrency for the same I/O load without increasing latency beyond 20 μs. Optimize cost-efficiency via quantization. More info at https://goni.top."}}]}</script>
 </head><body>
 <header class="nav"><div class="wrap">
@@ -37,7 +37,7 @@ NFS over TCP/10GbE baseline (median reduction ~90.9% across 7 metrics, reproduci
 <strong>KV cache offload</strong>: tiering attention key/value tensors out of GPU memory to external flash.
 <strong>NVMe-oF over RoCE</strong>: a lossless network path that keeps remote flash at near-local latency.</p>
 </section>
-<p><time datetime="2026-07-15">Last updated: 2026-07-15</time></p>
+<p><time datetime="2026-07-16">Last updated: 2026-07-16</time></p>
 </main>
 <footer><div class="wrap">
 <p>ZK-Storage (Hong Kong Zhongke Hangxing Technology Co., Limited). This is a knowledge/documentation site; the official website is
